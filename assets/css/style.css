@@ -181,7 +181,7 @@ Gộp 2 cấp */
     position:absolute;
     top: 0;
     right: 0; 
-   
+   display: none;
 }
 
 #header .mobile-menu-btn,
@@ -225,10 +225,6 @@ Gộp 2 cấp */
 
 }
 
-
-#content {
-
-}
 #content .content-section {
     width: 800px;
     max-width: 100%;
