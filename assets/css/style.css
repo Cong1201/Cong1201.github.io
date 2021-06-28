@@ -177,12 +177,20 @@ Gộp 2 cấp */
     color:#000;
 }
 
+#header .mobile-menu-btn {
+    position:absolute;
+    top: 0;
+    right: 0; 
+   
+}
+
 #header .mobile-menu-btn,
 #header .search-btn {
     float: right;
-    padding: 0 21px;    
-   
+    padding: 0 21px;   
+    
 }
+
 #header .menu-icon,
 #header .search-icon {
     color: #fff;
