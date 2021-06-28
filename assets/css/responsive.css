@@ -1,11 +1,15 @@
 /* Mobile */
 @media (max-width: 740px) {
-    
-}
-#nav > li { /* inline: Trên 1 hàng, Block: Giữ lại tính chất khối */
-    display: block;  
-}
 
-#header .search-btn {
-    display: none;
+    #nav {
+        display: block;
+    }
+
+    #nav > li { /* inline: Trên 1 hàng, Block: Giữ lại tính chất khối */
+        display: block;  
+    }
+
+    #header .search-btn {
+     display: none;
+    }
 }
