@@ -186,11 +186,14 @@
 
         // Tự động đóng khi chọn menu //
         var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
-        for (var i=0; i< menuItems.length; i++) {
+        for (var i=0; i < menuItems.length; i++) {
             var menuItem = menuItems [i];
-            
+
             menuItem.onclick = function() {
-                header.style.height = null ;
+            var isParentMenu = this.nextElementSibling && nextElementSibling.classList.contains('subnav');            
+                if (!isParentMenu) {
+                    header.style.height = null ;
+                } 
             }
         }
     </script>   
